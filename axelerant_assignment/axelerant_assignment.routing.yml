@@ -1,0 +1,7 @@
+axelerant_assignment.content:
+  path: '/axelerant_assignment/{site_api_key}/{node_id}'
+  defaults:
+    _controller: 'Drupal\axelerant_assignment\Controller\nodeAPIController::axelerant_assignment_get_node_content'
+    _title: Node API
+  requirements:
+    _custom_access: 'Drupal\axelerant_assignment\Controller\nodeAPIController::axelerant_assignment_get_node_access'

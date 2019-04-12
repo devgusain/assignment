@@ -1,0 +1,6 @@
+name: Axelerant Assignment
+description: Providing API for node content of page type
+package: custom
+type: module
+version: 1.0
+core: 8.x
